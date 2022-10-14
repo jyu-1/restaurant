@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/index.js\");\n/* harmony import */ var _rat_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rat.jpeg */ \"./src/rat.jpeg\");\n/* harmony import */ var _manager_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./manager.jpg */ \"./src/manager.jpg\");\n/* harmony import */ var _waitress_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./waitress.jpg */ \"./src/waitress.jpg\");\n\n\n\n\n\nfunction contactPage(main) {\n    const item1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"main-title\");\n    item1.changeText(\"Contact Us\");\n\n    const item2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item2.changeText(\"Head Chef\");\n\n    const ratPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"img\", \"rat-pic\");\n    ratPic.ele.src = _rat_jpeg__WEBPACK_IMPORTED_MODULE_1__;\n\n    const item21 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"p\", \"item21\");\n    item21.changeText(\"Ratta\");\n\n    const item22 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"p\", \"item22\");\n    item22.changeText(\"(626) 111 - 2222\");\n\n    const item3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item3.changeText(\"Manager\");\n\n    const managerPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"img\", \"manager-pic\");\n    managerPic.ele.src = _manager_jpg__WEBPACK_IMPORTED_MODULE_2__;\n\n    const item31 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item31\");\n    item31.changeText(\"Liny\");\n\n    const item32 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item32\");\n    item32.changeText(\"(626) 111 - 3333\");\n\n    const item4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item4.changeText(\"Waitress\");\n\n    const waitressPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"img\", \"waitress-pic\");\n    waitressPic.ele.src = _waitress_jpg__WEBPACK_IMPORTED_MODULE_3__;\n\n    const item41 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item41\");\n    item41.changeText(\"Colly\");\n\n    const item42 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item42\");\n    item42.changeText(\"(626) 111 - 4444\");\n}\n\n//# sourceURL=webpack://restaurant/./src/contactPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactPage)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/index.js\");\n/* harmony import */ var _rat_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rat.jpeg */ \"./src/rat.jpeg\");\n/* harmony import */ var _manager_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./manager.jpg */ \"./src/manager.jpg\");\n/* harmony import */ var _waitress_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./waitress.jpg */ \"./src/waitress.jpg\");\n\n\n\n\n\nfunction contactPage(main) {\n    const item1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"main-title\");\n    item1.changeText(\"Contact Us\");\n\n    const item2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item2.changeText(\"Head Chef\");\n\n    const ratPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"img\", \"rat-pic\");\n    ratPic.ele.src = _rat_jpeg__WEBPACK_IMPORTED_MODULE_1__;\n\n    const item21 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"p\", \"item21\");\n    item21.changeText(\"Ratta\");\n\n    const item22 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"p\", \"item22\");\n    item22.changeText(\"(626) 111 - 2222\");\n\n    const item3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item3.changeText(\"Manager\");\n\n    const managerPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"img\", \"manager-pic\");\n    managerPic.ele.src = _manager_jpg__WEBPACK_IMPORTED_MODULE_2__;\n\n    const item31 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item31\");\n    item31.changeText(\"Liny\");\n\n    const item32 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item32\");\n    item32.changeText(\"(626) 111 - 3333\");\n\n    const item4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item4.changeText(\"Waitress\");\n\n    const waitressPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"img\", \"waitress-pic\");\n    waitressPic.ele.src = _waitress_jpg__WEBPACK_IMPORTED_MODULE_3__;\n\n    const item41 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item41\");\n    item41.changeText(\"Colly\");\n\n    const item42 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item42\");\n    item42.changeText(\"(626) 111 - 4444\");\n}\n\n//# sourceURL=webpack://restaurant/./src/contactPage.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createPage\": () => (/* binding */ createPage)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _mainPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainPage */ \"./src/mainPage.js\");\n/* harmony import */ var _contactPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactPage */ \"./src/contactPage.js\");\n\n\n\n\nconst mainDiv = document.querySelector(\"#content\");\n\nconst createPage = (targetEle, type, className) => {\n    const ele = document.createElement(type);\n    targetEle.appendChild(ele).classList.add(className);\n    const changeText = (string) => {\n        ele.innerText = string;\n    }\n    return { changeText, ele };\n};\n\nconst mainLayout = (() => {\n    const header = createPage(mainDiv, \"div\", \"header\");\n    const container = createPage(mainDiv, \"div\", \"container\");\n    const footer = createPage(mainDiv, \"div\", \"footer\");\n    const mainContainer = createPage(container.ele, \"div\", \"main\");\n\n    header.changeText(\"LA's Best Steak\");\n    footer.changeText(\"Copyright © 2022 jyu-1\");\n\n    (0,_mainPage__WEBPACK_IMPORTED_MODULE_1__.mainPage)(mainContainer);\n    //contactPage(mainContainer);\n})();\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createPage\": () => (/* binding */ createPage)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _mainPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainPage */ \"./src/mainPage.js\");\n/* harmony import */ var _contactPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactPage */ \"./src/contactPage.js\");\n/* harmony import */ var _menuPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menuPage */ \"./src/menuPage.js\");\n\n\n\n\n\nconst mainDiv = document.querySelector(\"#content\");\n\nconst createPage = (targetEle, type, className) => {\n    const ele = document.createElement(type);\n    targetEle.appendChild(ele).classList.add(className);\n    const changeText = (string) => {\n        ele.innerText = string;\n    }\n    return { changeText, ele };\n};\n\nconst mainLayout = (() => {\n    const header = createPage(mainDiv, \"div\", \"header\");\n    const container = createPage(mainDiv, \"div\", \"container\");\n    const footer = createPage(mainDiv, \"div\", \"footer\");\n    const mainContainer = createPage(container.ele, \"div\", \"main\");\n\n    header.changeText(\"LA's Best Steak\");\n    footer.changeText(\"Copyright © 2022 jyu-1\");\n\n    //mainPage(mainContainer);\n    (0,_menuPage__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(mainContainer);\n    //contactPage(mainContainer);\n})();\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
 
 /***/ }),
 
@@ -146,7 +146,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"mainPage\": () => (/* binding */ mainPage)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/index.js\");\n/* harmony import */ var _chef_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chef.jpg */ \"./src/chef.jpg\");\n\n\n\nfunction mainPage(main) {\n    const item1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"main-title\");\n    item1.changeText(\"Best steak in town since 1702\");\n\n    const chefPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"img\", \"chef-pic\");\n    chefPic.ele.src = _chef_jpg__WEBPACK_IMPORTED_MODULE_1__;\n\n    const item2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item2\");\n    item2.changeText(\"Order online or call to make a reservation\");\n\n    const item3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item3\");\n    item3.changeText(\"Business Hours:\");\n\n    const item31 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item31\");\n    item31.changeText(\"Sunday: 10am-11pm\");\n    const item32 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item32\");\n    item32.changeText(\"Monday: 11am-8pm\");\n    const item33 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item33\");\n    item33.changeText(\"Tuesday: 11am-8pm\");\n    const item34 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item34\");\n    item34.changeText(\"Wednesday: 11am-8pm\");\n    const item35 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item35\");\n    item35.changeText(\"Thursday: 11am-8pm\");\n    const item36 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item36\");\n    item36.changeText(\"Friday: 10am-11pm\");\n    const item37 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item37\");\n    item37.changeText(\"Saturday: 10am-11pm\");\n\n    const item4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item4\");\n    item4.changeText(\"Address: \");\n    const item41 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item41\");\n    item41.changeText(\"123 Odin Drive, Los Angeles, CA, 90071\")\n}\n\n\n//# sourceURL=webpack://restaurant/./src/mainPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ mainPage)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/index.js\");\n/* harmony import */ var _chef_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chef.jpg */ \"./src/chef.jpg\");\n\n\n\nfunction mainPage(main) {\n    const item1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"main-title\");\n    item1.changeText(\"Best steak in town since 1702\");\n\n    const chefPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"img\", \"chef-pic\");\n    chefPic.ele.src = _chef_jpg__WEBPACK_IMPORTED_MODULE_1__;\n\n    const item2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item2\");\n    item2.changeText(\"Order online or call to make a reservation\");\n\n    const item3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item3\");\n    item3.changeText(\"Business Hours:\");\n\n    const item31 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item31\");\n    item31.changeText(\"Sunday: 10am-11pm\");\n    const item32 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item32\");\n    item32.changeText(\"Monday: 11am-8pm\");\n    const item33 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item33\");\n    item33.changeText(\"Tuesday: 11am-8pm\");\n    const item34 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item34\");\n    item34.changeText(\"Wednesday: 11am-8pm\");\n    const item35 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item35\");\n    item35.changeText(\"Thursday: 11am-8pm\");\n    const item36 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item36\");\n    item36.changeText(\"Friday: 10am-11pm\");\n    const item37 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item37\");\n    item37.changeText(\"Saturday: 10am-11pm\");\n\n    const item4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"item4\");\n    item4.changeText(\"Address: \");\n    const item41 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item41\");\n    item41.changeText(\"123 Odin Drive, Los Angeles, CA, 90071\")\n}\n\n\n//# sourceURL=webpack://restaurant/./src/mainPage.js?");
+
+/***/ }),
+
+/***/ "./src/menuPage.js":
+/*!*************************!*\
+  !*** ./src/menuPage.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuPage)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/index.js\");\n/* harmony import */ var _wagyu_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wagyu.jpg */ \"./src/wagyu.jpg\");\n/* harmony import */ var _tbone_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tbone.jpg */ \"./src/tbone.jpg\");\n/* harmony import */ var _ribeye_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ribeye.jpg */ \"./src/ribeye.jpg\");\n/* harmony import */ var _flank_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./flank.jpg */ \"./src/flank.jpg\");\n/* harmony import */ var _mignon_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mignon.jpg */ \"./src/mignon.jpg\");\n/* harmony import */ var _skirt_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./skirt.jpg */ \"./src/skirt.jpg\");\n/* harmony import */ var _chuckeye_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./chuckeye.jpg */ \"./src/chuckeye.jpg\");\n/* harmony import */ var _sirloin_jpeg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sirloin.jpeg */ \"./src/sirloin.jpeg\");\n\n\n\n\n\n\n\n\n\n\nfunction menuPage(main) {\n    const item1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"main-title\");\n    item1.changeText(\"Menu\");\n\n    const item2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item2.changeText(\"Wagyu\");\n    const wagyuPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"img\", \"menu-pic\");\n    wagyuPic.ele.src = _wagyu_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    const item21 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item2.ele, \"p\", \"item21\");\n    item21.changeText(\"$90\");\n\n    const item3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item3.changeText(\"T-Bone\");\n    const tbonePic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"img\", \"menu-pic\");\n    tbonePic.ele.src = _tbone_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    const item31 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item3.ele, \"p\", \"item31\");\n    item31.changeText(\"$50\");\n\n    const item4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item4.changeText(\"Ribeye\");\n    const ribeyePic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"img\", \"menu-pic\");\n    ribeyePic.ele.src = _ribeye_jpg__WEBPACK_IMPORTED_MODULE_3__;\n    const item41 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item4.ele, \"p\", \"item41\");\n    item41.changeText(\"$50\");\n\n    const item5 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item5.changeText(\"Flank\");\n    const flankPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item5.ele, \"img\", \"menu-pic\");\n    flankPic.ele.src = _flank_jpg__WEBPACK_IMPORTED_MODULE_4__;\n    const item51 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item5.ele, \"p\", \"item51\");\n    item51.changeText(\"$40\");\n\n    const item6 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item6.changeText(\"Filet Mignon\");\n    const mignonPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item6.ele, \"img\", \"menu-pic\");\n    mignonPic.ele.src = _mignon_jpg__WEBPACK_IMPORTED_MODULE_5__;\n    const item61 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item6.ele, \"p\", \"item61\");\n    item61.changeText(\"$60\");\n\n    const item7 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item7.changeText(\"Skirt\");\n    const skirtPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item7.ele, \"img\", \"menu-pic\");\n    skirtPic.ele.src = _skirt_jpg__WEBPACK_IMPORTED_MODULE_6__;\n    const item71 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item7.ele, \"p\", \"item71\");\n    item71.changeText(\"$30\");\n\n    const item8 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item8.changeText(\"Chuckeye\");\n    const chuckeyePic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item8.ele, \"img\", \"menu-pic\");\n    chuckeyePic.ele.src = _chuckeye_jpg__WEBPACK_IMPORTED_MODULE_7__;\n    const item81 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item8.ele, \"p\", \"item81\");\n    item81.changeText(\"$50\");\n\n    const item9 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(main.ele, \"div\", \"contact-div\");\n    item9.changeText(\"Sirloin\");\n    const sirloinPic = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item9.ele, \"img\", \"menu-pic\");\n    sirloinPic.ele.src = _sirloin_jpeg__WEBPACK_IMPORTED_MODULE_8__;\n    const item91 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createPage)(item9.ele, \"p\", \"item91\");\n    item91.changeText(\"$60\");\n}\n\n//# sourceURL=webpack://restaurant/./src/menuPage.js?");
 
 /***/ }),
 
@@ -160,6 +170,26 @@ eval("module.exports = __webpack_require__.p + \"d6092615cb552a2cb6a2.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/chuckeye.jpg":
+/*!**************************!*\
+  !*** ./src/chuckeye.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"385b15e52fba48a18136.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/chuckeye.jpg?");
+
+/***/ }),
+
+/***/ "./src/flank.jpg":
+/*!***********************!*\
+  !*** ./src/flank.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b7fc87e3fcac930759e5.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/flank.jpg?");
+
+/***/ }),
+
 /***/ "./src/manager.jpg":
 /*!*************************!*\
   !*** ./src/manager.jpg ***!
@@ -167,6 +197,16 @@ eval("module.exports = __webpack_require__.p + \"d6092615cb552a2cb6a2.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"0d3dd20db037ff56473b.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/manager.jpg?");
+
+/***/ }),
+
+/***/ "./src/mignon.jpg":
+/*!************************!*\
+  !*** ./src/mignon.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e0979ef1eb6c6872ffce.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/mignon.jpg?");
 
 /***/ }),
 
@@ -180,6 +220,36 @@ eval("module.exports = __webpack_require__.p + \"ed5a02e00c23bf00880a.jpeg\";\n\
 
 /***/ }),
 
+/***/ "./src/ribeye.jpg":
+/*!************************!*\
+  !*** ./src/ribeye.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9a87a7c9dff4cb3c16d7.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/ribeye.jpg?");
+
+/***/ }),
+
+/***/ "./src/sirloin.jpeg":
+/*!**************************!*\
+  !*** ./src/sirloin.jpeg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6f3045742bf027ce59a4.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/sirloin.jpeg?");
+
+/***/ }),
+
+/***/ "./src/skirt.jpg":
+/*!***********************!*\
+  !*** ./src/skirt.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a4be256b0d78bae41191.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/skirt.jpg?");
+
+/***/ }),
+
 /***/ "./src/steak.jpeg":
 /*!************************!*\
   !*** ./src/steak.jpeg ***!
@@ -187,6 +257,26 @@ eval("module.exports = __webpack_require__.p + \"ed5a02e00c23bf00880a.jpeg\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"48ad06021c43fe7ba037.jpeg\";\n\n//# sourceURL=webpack://restaurant/./src/steak.jpeg?");
+
+/***/ }),
+
+/***/ "./src/tbone.jpg":
+/*!***********************!*\
+  !*** ./src/tbone.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d6da5db86e3554ee99ec.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/tbone.jpg?");
+
+/***/ }),
+
+/***/ "./src/wagyu.jpg":
+/*!***********************!*\
+  !*** ./src/wagyu.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c1ea6cd53d13ac3c6a4d.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/wagyu.jpg?");
 
 /***/ }),
 
