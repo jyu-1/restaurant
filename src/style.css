@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 
 * {
     margin: 0;
@@ -16,32 +17,46 @@ body {
 }
 
 .header {
+    font-family: 'Trade Winds', cursive;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 50px 0;
     text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
-.item1 {
+.main {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    grid-column: 2 / 3;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 700px;
+    padding: 50px;
+    gap: 50px;
 }
 
 .footer {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     position: absolute;
+    text-align: center;
     bottom: 0;
     width: 100%;
-    text-align: center;
     padding: 10px 0;
+}
+
+.main >*{
+    width: 400px;
+    text-align: center;
+    padding: 20px 0;
+    border: 5px solid white;
 }
