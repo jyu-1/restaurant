@@ -1,5 +1,6 @@
 import './style.css';
 import { mainPage } from "./mainPage";
+import { contactPage } from './contactPage';
 
 const mainDiv = document.querySelector("#content");
 
@@ -22,9 +23,5 @@ const mainLayout = (() => {
     footer.changeText("Copyright © 2022 jyu-1");
 
     mainPage(mainContainer);
+    //contactPage(mainContainer);
 })();
-
-
-
-
-

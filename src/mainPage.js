@@ -2,8 +2,7 @@ import { createPage } from "./index.js"
 import chefImage from "./chef.jpg";
 
 export function mainPage(main) {
-
-    const item1 = createPage(main.ele, "div", "item1");
+    const item1 = createPage(main.ele, "div", "main-title");
     item1.changeText("Best steak in town since 1702");
 
     const chefPic = createPage(main.ele, "img", "chef-pic");
