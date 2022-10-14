@@ -1,6 +1,7 @@
 import './style.css';
-import { mainPage } from "./mainPage";
-import { contactPage } from './contactPage';
+import mainPage from "./mainPage";
+import contactPage from './contactPage';
+import menuPage from "./menuPage";
 
 const mainDiv = document.querySelector("#content");
 
@@ -22,6 +23,7 @@ const mainLayout = (() => {
     header.changeText("LA's Best Steak");
     footer.changeText("Copyright © 2022 jyu-1");
 
-    mainPage(mainContainer);
+    //mainPage(mainContainer);
+    menuPage(mainContainer);
     //contactPage(mainContainer);
 })();

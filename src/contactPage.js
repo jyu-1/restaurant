@@ -1,9 +1,9 @@
 import { createPage } from "./index.js"
-import rat from "./rat.jpeg";
-import manager from "./manager.jpg";
-import waitress from "./waitress.jpg";
+import RAT from "./rat.jpeg";
+import MANAGER from "./manager.jpg";
+import WAITRESS from "./waitress.jpg";
 
-export function contactPage(main) {
+export default function contactPage(main) {
     const item1 = createPage(main.ele, "div", "main-title");
     item1.changeText("Contact Us");
 
@@ -11,7 +11,7 @@ export function contactPage(main) {
     item2.changeText("Head Chef");
 
     const ratPic = createPage(item2.ele, "img", "rat-pic");
-    ratPic.ele.src = rat;
+    ratPic.ele.src = RAT;
 
     const item21 = createPage(item2.ele, "p", "item21");
     item21.changeText("Ratta");
@@ -23,7 +23,7 @@ export function contactPage(main) {
     item3.changeText("Manager");
 
     const managerPic = createPage(item3.ele, "img", "manager-pic");
-    managerPic.ele.src = manager;
+    managerPic.ele.src = MANAGER;
 
     const item31 = createPage(item3.ele, "p", "item31");
     item31.changeText("Liny");
@@ -35,7 +35,7 @@ export function contactPage(main) {
     item4.changeText("Waitress");
 
     const waitressPic = createPage(item4.ele, "img", "waitress-pic");
-    waitressPic.ele.src = waitress;
+    waitressPic.ele.src = WAITRESS;
 
     const item41 = createPage(item4.ele, "p", "item41");
     item41.changeText("Colly");

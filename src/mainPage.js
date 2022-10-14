@@ -1,12 +1,12 @@
 import { createPage } from "./index.js"
-import chefImage from "./chef.jpg";
+import CHEFIMAGE from "./chef.jpg";
 
-export function mainPage(main) {
+export default function mainPage(main) {
     const item1 = createPage(main.ele, "div", "main-title");
     item1.changeText("Best steak in town since 1702");
 
     const chefPic = createPage(main.ele, "img", "chef-pic");
-    chefPic.ele.src = chefImage;
+    chefPic.ele.src = CHEFIMAGE;
 
     const item2 = createPage(main.ele, "div", "item2");
     item2.changeText("Order online or call to make a reservation");
