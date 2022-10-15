@@ -3,7 +3,7 @@ import CHEFIMAGE from "./chef.jpg";
 
 export default function mainPage(main) {
     const item1 = createPage(main.ele, "div", "main-title");
-    item1.changeText("Best steak in town since 1702");
+    item1.changeText("Best Steak in Town Since 1702");
 
     const chefPic = createPage(main.ele, "img", "chef-pic");
     chefPic.ele.src = CHEFIMAGE;
