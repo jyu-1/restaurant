@@ -1,3 +1,8 @@
 # Restaurant Page
-Welcome to sample restaurant page.
-This exercise is to practice webpack and populate the entire HTML page from using javascript.
+
+Welcome to a sample restaurant page.\
+This page dynamically rendered in javascript by manipulating the DOM.\
+The production code is built using webpack.
+
+## Live Preview
+https://jyu-1.github.io/restaurant/
